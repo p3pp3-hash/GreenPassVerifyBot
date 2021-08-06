@@ -22,3 +22,10 @@ Try it at https://t.me/GPVerifyBot
    `(venv) $ pip3 install -r requirements.txt`
 6. Run the bot\
    `(venv) $ python3 bot.py`
+   
+## Remove of virtualenv (if any problem occours)
+1. source venv/bin/activate
+2. pip freeze > requirements.txt
+3. pip uninstall -r requirements.txt -y
+4. deactivate
+5. rm -r venv/
